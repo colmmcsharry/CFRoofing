@@ -47,12 +47,10 @@ nav {
 }
 
 .toggle-container {
-  border:1px solid red;
   position:fixed;
   top:10px;
   right:10px;
-
-
+  z-index:199;
 }
 
 #footerlight {
