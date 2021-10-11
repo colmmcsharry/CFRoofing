@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       colors: {
         bgcolor:"var(--bgcolor)",
-        mayellow:"var(--mayellow)"
+        mayellow:"var(--mayellow)",
+        textcol:"var(--textcolor)"
       },
       backgroundImage:{
         'gutterman': "url(./gutterman.jpg)",
