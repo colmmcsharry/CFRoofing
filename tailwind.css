@@ -13,12 +13,14 @@
 
   /* lightswitch CSS starts */
 
+  /* for some reason dark and light names are mixed up here */
 :root,
 :root.light {
     --bg-color: #333333;
     --text-color: white;
     --mayellow: #fcd95e;
     --navcol: #2e2e2e;
+    --cardbg: rgb(63, 63, 63)
 }
 
 :root.dark {
@@ -26,6 +28,8 @@
     --text-color: #123;
     --mayellow:rgb(187, 163, 73);
     --navcol:#fdfdfd;
+    --cardbg: white;
+    
 }
 
 body {
@@ -63,8 +67,8 @@ margin: auto;
 }
 
 .theme-btn {
-  width: 5em;
-  height: 5em;
+  width: 4em;
+  height: 4em;
   padding: 0.5em;
   border-radius: 50%;
   cursor: pointer;
@@ -155,6 +159,10 @@ h1,h2,h3,h4,h5,h6 {
     }
 }
 
+.card {
+    background-color: var(--cardbg);
+
+}
 .iconholder {left:50%;
 transform:translateX(-50%);
 background-color:rgb(63, 63, 63);}
