@@ -9,7 +9,15 @@
     /* color:white; */
   }
 
+html {
+    scroll-behavior: smooth;
+}
 
+@media screen and (min-width:1200px){
+    html {
+        font-size:18px
+    }
+}
 
   /* lightswitch CSS starts */
 
@@ -50,10 +58,13 @@ nav {
   background-color: var(--navcol)
 }
 
+
+/* LIGHTSWITCH CSS STARTS */
+
 .toggle-container {
-  position:fixed;
-  top:10px;
-  right:10px;
+  position:relative;
+  top:42px;;
+  display:inline;
   z-index:199;
 }
 
@@ -67,8 +78,8 @@ margin: auto;
 }
 
 .theme-btn {
-  width: 4em;
-  height: 4em;
+  width: 3.5em;
+  height: 3.5em;
   padding: 0.5em;
   border-radius: 50%;
   cursor: pointer;
@@ -95,9 +106,29 @@ margin: auto;
   margin:0 auto
 }
 
+
+
 /* lightswitch CSS ends */
   
 
+
+#mynum:after, #mynumplustwo:after {
+    content:"+";
+    display:inline;
+    font-size:20px;
+    font-weight:bold;
+    color:var(--text-color);
+    position:relative
+}
+
+#mynumsec:after, #mynumlast:after {
+    content:"%";
+    display:inline;
+    font-size:20px;
+    font-weight:bold;
+    color:var(--text-color);
+    position:relative
+}
 
 h1,h2,h3,h4,h5,h6 {
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -582,3 +613,10 @@ content: '';
   .houseopacity {
       opacity:0.9;
   }
+
+@media screen and (min-width:1200px) {
+    .toggle-container {
+        top:55px !important;
+}
+
+}

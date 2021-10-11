@@ -86,7 +86,7 @@
                 <div class="flex space-x-20">
                     <div>
                         <!-- Website Logo -->
-                        <a href="#" class="flex items-center px-2 py-4">
+                        <a href="./index.html" class="flex items-center px-2 py-4">
                             <img id="mainlogo" src="./images/wholelogo.png" alt="Logo" class="w-36 md:w-52">
                            
                         </a>
@@ -94,27 +94,31 @@
                     <!-- Primary Navbar items -->
                     <div class="items-center hidden space-x-1 md:flex">
                         <a href="" class="px-2 py-4 font-semibold border-b-2 border-white ">Home</a>
-                        <a href="" class="px-2 py-4 font-semibold transition duration-300 text-mayellow hover:text-yellow-100">Services</a>
-                        <a href="" class="px-2 py-4 font-semibold transition duration-300 text-mayellow hover:text-yellow-100">About</a>
+                        <a href="#services" class="px-2 py-4 font-semibold transition duration-300 text-mayellow hover:text-yellow-100">Services</a>
+                        <a href="#about" class="px-2 py-4 font-semibold transition duration-300 text-mayellow hover:text-yellow-100">About</a>
+                        <a href="./gallery.html" class="px-2 py-4 font-semibold transition duration-300 text-mayellow hover:text-yellow-100">Gallery</a>
                         <a href="" class="px-2 py-4 font-semibold transition duration-300 text-mayellow hover:text-yellow-100">Contact Us</a>
+                        
                     </div>
                 </div>
                 <!-- Secondary Navbar items -->
                 <div class="items-center hidden space-x-3 md:flex ">
-                    <a id="navmob" href="" class="px-2 py-2 font-medium text-green-200 transition duration-300 rounded hover:text-green-400">087 669 4470</a>
-                    <a href="" class="px-2 py-2 font-medium text-gray-800 transition duration-300 bg-mayellow hover:bg-yellow-200">Contact Us</a>
-
-                    <div class="toggle-container">
-                        <button class="theme-btn light" onclick="setTheme('light')" title="Light mode">
-                            <img src="./images/sun.png" alt="sun">
-                          </button>
-                          
-                        <button class="theme-btn dark" onclick="setTheme('dark')" title="Dark mode">
-                            <img src="./images/moon.png" alt="moon">
-                        </button>
-                      </div>
-
+                    <a id="navmob" href="" class="px-2 py-2 font-medium text-green-200 transition duration-300 rounded hover:text-green-400">
+                        <img src="images/mobphone.png" class="inline" alt="phone" width="30px" height="35px" />
+                        
+                        087 669 4470</a>
+                  
                 </div>
+
+                <div class="toggle-container">
+                    <button class="theme-btn light" onclick="setTheme('light')" title="Light mode">
+                        <img src="./images/sun.png" alt="sun">
+                      </button>
+                      
+                    <button class="theme-btn dark" onclick="setTheme('dark')" title="Dark mode">
+                        <img src="./images/moon.png" alt="moon">
+                    </button>
+                  </div>
                 <!-- Mobile menu button -->
                 <div class="flex items-center mt-5 mr-2 md:hidden">
                     <button class="outline-none mobile-menu-button">
@@ -134,12 +138,14 @@
             </div>
         </div>
         <!-- mobile menu -->
+        
         <div class="hidden mobile-menu">
             <ul class="">
                 <li class="active"><a href="index.html" class="block px-2 py-4 text-sm font-semibold text-white hover:bg-gray-500">Home</a></li>
                 <li><a href="#services" class="block px-2 py-4 text-sm transition duration-300 text-mayellow hover:bg-gray-500">Services</a></li>
                 <li><a href="#about" class="block px-2 py-4 text-sm transition duration-300 text-mayellow hover:bg-gray-500">About</a></li>
-                <li><a href="#contact" class="block px-2 py-4 text-sm transition duration-300 text-mayellow hover:bg-gray-500">Contact Us</a></li>
+                <li><a href="./gallery.html" class="block px-2 py-4 text-sm transition duration-300 text-mayellow hover:bg-gray-500">Gallery</a></li>
+                <li><a href="./contact.html" class="block px-2 py-4 text-sm transition duration-300 text-mayellow hover:bg-gray-500">Contact</a></li>
             </ul>
         </div>
         <script>
@@ -151,6 +157,7 @@
         </script>
     </nav>
 
+    
 
     <!-- HEADER SECTION -->
 <section class="relative mb-20 lg:px-12 2xl:px-32">
@@ -158,16 +165,12 @@
 <div class="relative grid p-8 place-items-center lg:grid-cols-2 lg:py-32">
     <div class="relative grid place-items-center">
     <img id="heroroof" src="./images/whiteroofguys.png" width="150px" height="150px" alt=""/>
-<h1 class="text-2xl md:text-4xl">All of your <span class="text-mayellow">Roofing</span> Needs</h1>
+<h1 class="text-2xl whitespace-nowrap md:text-4xl">All of your <span class="text-mayellow">Roofing</span> Needs</h1>
 <h2 class="mb-6 text-2xl heroh2 md:text-4xl">Under One <span class="text-mayellow">Roof</span></h2>
 <p class="max-w-lg mb-10">At C&F we pride ourselves on providing the <b>best value</b> around in roofing repair services. 
     With over <b>25 years experience</b> and <b>hundreds of satisfied customers</b>, 
     you know you can count on us to keep a roof over your head!</p>
     <a href="./contact.html" class="relative px-4 py-2 mb-10 font-bold text-center text-gray-800 w-44 yellowbut bg-mayellow">Get in Touch</a>
-
-
-    
-
 </div>
     <img class="lg:w-4/5" src="./images/herobg.png" width="300px" height="300px" alt="men working on roof"/>
 </div>
@@ -178,13 +181,13 @@
 
 <section>
    
-    <h3 class="relative mx-auto mb-6 text-2xl font-bold text-center secheading lg:text-4xl" id="services">Who <span class="text-mayellow">We Are</span></h3> 
+    <h3 class="relative mx-auto mb-6 text-2xl font-bold text-center secheading lg:text-4xl" id="about">Who <span class="text-mayellow">We Are</span></h3> 
     
     <div class="grid gap-4 px-4 py-10 mx-auto max-w-8xl place-items:center lg:grid-cols-2"> 
               <p class="max-w-lg mx-auto mb-10 lg:my-auto">We founded C&F Roofing Repairs over 25 years ago and since then we have forged a reputation as the go-to guys
                   for fixing all manner of roofing problems. We are <b>punctual, precise</b> and <b>always professional</b> in our duties. By going above and beyond for every client, we have a constant influx of new customers
                 as word-of-mouth spreads about our work. </p>
-              <img class="p-6 mx-auto" src="./images/guttercleaning.png" width="500px" height="400px" />
+              <img class="p-6 mx-auto lg:w-3/5" src="./images/guttercleaning.png" width="300px" height="300px" />
  </div>
  
 <div class="absolute line-box"></div>
@@ -192,7 +195,7 @@
 <div class="grid gap-4 px-4 mx-auto secondgrid max-w-8xl lg:mt-20 lg:pt-20 place-items:center lg:grid-cols-2 "> 
           <p class="max-w-lg mx-auto mb-10 text-left lg:my-auto">Our dedicated crafstmen combine <b>time-tested, traditonal techniques</b> with the <b>latest technological advances</b> to provide the most cutting-edge roofing services in Dublin.
              By utilising our experience, knowledge and the finest, locally-sourced materials, our roofing repairs are <b>built to last</b>  </p>
-          <img class="p-6 mx-auto" src="./images/secondcartoon.png" width="500px" height="400px" />
+             <img class="p-6 mx-auto lg:w-3/5" src="./images/secondcartoon.png" width="300px" height="300px" />
           </div>
 
          
@@ -205,9 +208,9 @@
                
             <p class="max-w-lg mx-auto text-left mt-14"> Our team are fully licensed, trained, and accredited have an exceptional customer satisfaction record.
                 We are so confident in our work, that we can provide a <span class="text-mayellow"><b>100% money-back guarantee!</span></b> Don't delay, call us today and get a hassle-free quote! </span></p> 
-                <a href="./services.html" class="relative z-10 px-4 py-2 my-16 font-bold text-center text-gray-800 lg:my-0 w-44 yellowbut bg-mayellow">Contact Us!</a>
+                <a href="./contact.html" class="relative z-10 px-4 py-2 my-16 font-bold text-center text-gray-800 w-44 yellowbut bg-mayellow">Contact Us!</a>
         </div>
-        <img class="p-6 mx-auto" src="./images/finalcartoon.png" width="500px" height="400px" />
+        <img class="p-6 mx-auto lg:w-3/5" src="./images/finalcartoon.png" width="300px" height="300px" />
 </div>
  </section>
 
@@ -225,16 +228,17 @@
             </p>
                 
 
-        <div class="grid mb-20 text-center place-items-center outline-white outerwrapper">
+        <div class="grid mb-20 text-center place-items-center outerwrapper">
             <div class="relative w-full mx-auto mb-8 text-center lg:inline-grid lg:grid-cols-3 2xl:px-48 mycontainer ">
 
                 <div class='relative mx-auto my-6 shadow-lg rounded-xl w-72 lg:w-96 card lg:inline-block'>
                     <div aria-hidden="true" class='w-full h-32 mb-8 bg-bottom rounded-t-xl cardimg bg-gutterman'></div>
                     <div aria-hidden="true" class="absolute grid w-20 h-20 border shadow-lg iconholder top-20 place-items-center"> <img alt="" loading="lazy" class="rounded-full" src="./images/guttericon.png" width="60px" height="60px"/>  </div>
                     <h3 class="relative mb-8 font-bold text-center top-5">Guttering</h3>
-                    <p class="p-3 pb-6 text-left opacity-80"> We have extensive experience in installing, cleaning, repairing and replacing gutters, as well as fascia and soffit work. We have a variety of the highest quality materials, designs and colours so your gutter will fit in with the look of your home. A dysfunctional guttering
+                    <p class="p-3 text-left opacity-80"> We have extensive experience in installing, cleaning, repairing and replacing gutters, as well as fascia and soffit work. A dysfunctional guttering
                         system can seriously impair the integrity of your home, so all guttering 
-                        work is carried out to the highest industry standards.
+                        work is carried out to the highest industry standards.</p> <p class="p-3 pb-6 text-left opacity-80"> We have a variety of the highest quality materials, designs and colours so not only will your gutter fit in with the look of your home, you can rest assured it will do it's job for years to come. Get your gutter
+                      checked out today, or you might be gutted you didn't!      
                     </p>
                 </div>
 
@@ -242,8 +246,8 @@
                     <div aria-hidden="true" class='w-full h-32 mb-8 bg-cover rounded-t-xl cardimg bg-gutterman'></div>
                     <div aria-hidden="true" class="absolute grid w-20 h-20 border shadow-lg iconholder top-20 place-items-center"> <img alt="" loading="lazy" class="rounded-full" src="./images/broken-house.png" width="60px" height="60px"/>  </div>
                     <h3 class="relative mb-8 font-bold text-center top-5">Roof Repairs</h3>
-                    <p class="p-3 pb-6 text-left opacity-80 "> We provide a comprehensive range of roofing repair services, covering damage caused by storms, ice, fire, birds, leaks and more. We do roof repair services for both residential and commercial spaces,
-                        with a reputation for getting the job done quickly and reliably. We pay attention to detail, with our foremen supervising all tasks, making sure your roof repairs last for the forseeable future and beyond.
+                    <p class="p-3 text-left opacity-80 "> We provide a comprehensive range of roofing repair services, covering damage caused by storms, ice, fire, birds, leaks and more. We are always available to help in case of urgent, emergency roof repairs.</p> <p class="p-3 pb-6 text-left opacity-80 ">We do roof repair services for both residential and commercial spaces,
+                        with a reputation for getting the job done quickly and reliably. We pay attention to detail, with our foremen supervising all tasks, making sure your roof repairs last for the foreseeable future and beyond.
                     </p>
                 </div>
 
@@ -251,62 +255,56 @@
                     <div aria-hidden="true" class='w-full h-32 mb-8 bg-cover rounded-t-xl cardimg bg-gutterman'></div>
                     <div aria-hidden="true" class="absolute grid w-20 h-20 border shadow-lg iconholder top-20 place-items-center"> <img alt="" loading="lazy" class="rounded-full" src="./images/flatrooficon.png" width="60px" height="60px"/>  </div>
                     <h3 class="relative mb-8 font-bold text-center top-5">Flat Roofs</h3>
-                    <p class="p-3 pb-6 text-left opacity-80 "> Flat roofs are popular for a variety of reasons, and we take pride in installing and repairing them to the highest standard. A poorly installed or maintained flat roof
-                        will become worn down over time, causing interior leaks or shingle damage. We have a variety of flat roof types available, so we'll be able to find the most suitable type for you. We have a massive amount of experience in all things flat-roof related, including re-plastering, insulation, extensions, re-felting, removing old-timbers and shingle replacement. </p>
+                    <p class="p-3 text-left opacity-80 "> Flat roofs are popular for a variety of reasons, and we take pride in installing and repairing them to the highest standard. A poorly installed or maintained flat roof
+                        will become worn down over time, causing interior leaks or shingle damage.</p>  <p class="p-3 pb-6 text-left opacity-80 ">We have a variety of flat roof types available, so we'll be able to find the most suitable type for you. We have a massive amount of experience in all things flat-roof related, including re-plastering, insulation, extensions, re-felting, removing old-timbers and shingle replacement. </p>
                 </div>
 
-                <!-- <div class='relative mx-auto my-6 shadow-lg rounded-xl w-72 card lg:inline-block'>
-                    <div aria-hidden="true" class='w-full h-32 mb-8 bg-cover rounded-t-xl cardimg bg-gutterman'></div>
-                    <div aria-hidden="true" class="absolute grid w-20 h-20 border shadow-lg iconholder top-20 place-items-center"> <img alt="" loading="lazy" class="rounded-full" src="./images/guttericon.png" width="60px" height="60px"/>  </div>
-                    <h3 class="relative mb-8 font-bold text-center top-5">Guttering</h3>
-                    <p class="p-3 pb-6 text-left opacity-80"> Offering the most comprehensive range of imprinted concrete services throughout Dublin and surrounding areas, you are guaranteed to find just what you’re looking for with our exclusive range of patterns and colours.</p>
-                </div> -->
 
             </div>
 
-            <div class="grid grid-cols-1 mb-20 justify-content-start xl:grid-cols-3 2xl:grid-cols-4">
-                <span class="inline w-auto p-2 mb-4 font-bold text-center ">
+            <div class="grid grid-cols-1 mb-20 text-left justify-content-start xl:grid-cols-3 2xl:grid-cols-3">
+                <span class="inline w-auto p-2 mb-4 font-bold text-left ">
                     <img alt="" loading="lazy" class="inline mx-auto mb-2 tick" src="./images/checked.png" width="25px" height="25px"/>
-                    No Weeds or Maintenance
+                    Rebuilding Chimneys
                 </span>
-                <span class="inline w-auto p-2 mb-4 font-bold text-center ">
+                <span class="inline w-auto p-2 mb-4 font-bold text-left ">
                     <img alt="" loading="lazy" class="inline mx-auto mb-2 tick" src="./images/checked.png" width="25px" height="25px"/>
-                   Cost effective
+                   uPVC
                 </span>
 
-                <span class="inline w-auto p-2 mb-4 font-bold text-center tick ">
+                <span class="inline w-auto p-2 mb-4 font-bold text-left tick ">
                     <img alt="" loading="lazy" class="inline mx-auto mb-2" src="./images/checked.png" width="25px" height="25px"/>
-                    Oil and Split Resistant
+                    Lead Valley repairs/replacements
                 </span>
-                <span class="inline w-auto p-2 mb-4 font-bold text-center tick ">
+                <span class="inline w-auto p-2 mb-4 font-bold text-left tick ">
                     <img alt="" loading="lazy" class="inline mx-auto mb-2" src="./images/checked.png" width="25px" height="25px"/>
-                    20 Colours/Designs to Choose from
-                </span>
-                
-                <span class="inline w-auto p-2 mb-4 font-bold text-center tick ">
-                    <img alt="" loading="lazy" class="inline mx-auto mb-2" src="./images/checked.png" width="25px" height="25px"/>
-                    Adds Value to your Home
-                </span>
-                <span class="inline w-auto p-2 mb-4 font-bold text-center tick ">
-                    <img alt="" loading="lazy" class="inline mx-auto mb-2" src="./images/checked.png" width="25px" height="25px"/>
-                    No Staining / Easy to Clean 
-                </span>
-                <span class="inline w-auto p-2 mb-4 font-bold text-center tick ">
-                    <img alt="" loading="lazy" class="inline mx-auto mb-2" src="./images/checked.png" width="25px" height="25px"/>
-                    20 Colours/Designs to Choose from
+                    Downpipes
                 </span>
                 
-                <span class="inline w-auto p-2 mb-4 font-bold text-center tick ">
+                <span class="inline w-auto p-2 mb-4 font-bold text-left tick ">
                     <img alt="" loading="lazy" class="inline mx-auto mb-2" src="./images/checked.png" width="25px" height="25px"/>
-                    Adds Value to your Home
+                    Rotten timber replacement
                 </span>
-                <span class="inline w-auto p-2 mb-4 font-bold text-center tick ">
+                <span class="inline w-auto p-2 mb-4 font-bold text-left tick ">
                     <img alt="" loading="lazy" class="inline mx-auto mb-2" src="./images/checked.png" width="25px" height="25px"/>
-                    No Staining / Easy to Clean 
+                    Ridge Tiles rebedded/repointed 
+                </span>
+                <span class="inline w-auto p-2 mb-4 font-bold text-left tick ">
+                    <img alt="" loading="lazy" class="inline mx-auto mb-2" src="./images/checked.png" width="25px" height="25px"/>
+                    Emergency repairs
+                </span>
+                
+                <span class="inline w-auto p-2 mb-4 font-bold text-left tick ">
+                    <img alt="" loading="lazy" class="inline mx-auto mb-2" src="./images/checked.png" width="25px" height="25px"/>
+                    tile/slate replacements
+                </span>
+                <span class="inline w-auto p-2 mb-4 font-bold text-left tick ">
+                    <img alt="" loading="lazy" class="inline mx-auto mb-2" src="./images/checked.png" width="25px" height="25px"/>
+                     Debris removal/cleaning
                 </span>
             </div>
 
-            <a href="./services.html" class="relative z-10 px-4 py-2 font-bold text-center text-gray-800 w-44 yellowbut bg-mayellow">See All Services</a>
+            <a href="./contact.html" class="relative z-10 px-4 py-2 font-bold text-center text-gray-800 w-44 yellowbut bg-mayellow">Hire our services</a>
          
 
         </div>
@@ -318,7 +316,7 @@
 
 
 <!-- Gallery -->
-<h3 class="relative my-auto mb-10 text-2xl font-bold text-center secheading lg:text-4xl" id="services">Our <span class="text-mayellow">Work</span></h3> 
+<h3 class="relative my-auto mb-10 text-2xl font-bold text-center secheading lg:text-4xl">Our <span class="text-mayellow">Work</span></h3> 
 
 <div class="pb-32 text-center">
     <div class="relative w-full mx-auto mb-8 text-center border-solid lg:inline-grid lg:px-20 lg:grid-cols-3 xl:grid-cols-4 2xl:px-48">
@@ -335,7 +333,7 @@
 
 <!-- STATS -->
 <section class"mb-20">   
-    <h3 class="relative mx-auto mb-6 text-2xl font-bold text-center secheading lg:text-4xl" id="services">Why <span class="text-mayellow">Choose Us?</span></h3> 
+    <h3 class="relative mx-auto mb-6 text-2xl font-bold text-center secheading lg:text-4xl">Why <span class="text-mayellow">Choose Us?</span></h3> 
 
 
     <div class="container py-12 mx-auto" id="counter">
@@ -347,7 +345,7 @@
                 </svg>
                 <div class="w-1/2 pl-12 text-gray-800">
                     <p id="mynum" class="text-2xl font-bold counter-value lg:text-5xl tracking-1px" data-count="200">0</p>
-                    <p class="mt-4 text-base leading-8 tracking-wide lg:text-lg">Happy Clients.</p>
+                    <p class="mt-4 text-base leading-8 tracking-wide lg:text-lg">Happy Clients</p>
                 </div>
             </div>
             <div role="listitem" class="flex justify-center w-full py-6 border-gray-300 lg:border-r">
@@ -358,8 +356,8 @@
                     <path d="M17.1427 54.9998C21.3243 54.9998 24.7142 51.6099 24.7142 47.4283C24.7142 43.2468 21.3243 39.8569 17.1427 39.8569C12.9612 39.8569 9.57133 43.2468 9.57133 47.4283C9.57133 51.6099 12.9612 54.9998 17.1427 54.9998Z" stroke="var(--mayellow)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
                 <div class="w-1/2 pl-12 text-gray-800">
-                    <h1 class="text-2xl font-bold lg:text-5xl tracking-1px">10+</h1>
-                    <h2 class="mt-4 text-base leading-8 tracking-wide lg:text-lg">Insurance Solutions</h2>
+                    <p id="mynumsec" class="text-2xl font-bold counter-value lg:text-5xl tracking-1px" data-count="100">0</p>
+                    <p class="mt-4 text-base leading-8 tracking-wide lg:text-lg">Qualified and Insured</p>
                 </div>
             </div>
             <div role="listitem" class="flex justify-center w-full py-6 border-gray-300 lg:border-r">
@@ -368,8 +366,8 @@
                     <path d="M36 17.1108V35.9997L47.3333 47.3331" stroke="var(--mayellow)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
                 <div class="w-1/2 pl-12 text-gray-800">
-                    <h1 class="text-2xl font-bold lg:text-5xl tracking-1px">25</h1>
-                    <h2 class="mt-4 text-base leading-8 tracking-wide lg:text-lg">Years of Experience</h2>
+                    <p id="mynumplustwo" class="text-2xl font-bold counter-value lg:text-5xl tracking-1px" data-count="25">0</p>
+                    <p class="mt-4 text-base leading-8 tracking-wide lg:text-lg">Years of Experience</p>
                 </div>
             </div>
             <div role="listitem" class="flex justify-center w-full py-6">
@@ -388,8 +386,8 @@
                     <path d="M10.5 25.45L2 20.8438" stroke="var(--mayellow)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
                 <div class="w-1/2 pl-12 text-gray-800">
-                    <h1 class="text-2xl font-bold lg:text-5xl tracking-1px">100%</h1>
-                    <h2 class="mt-4 text-base leading-8 tracking-wide lg:text-lg">Satisfaction Guaranteed</h2>
+                    <p id="mynumlast" class="text-2xl font-bold counter-value lg:text-5xl tracking-1px" data-count="200">0</p>
+                    <p class="mt-4 text-base leading-8 tracking-wide lg:text-lg">Satisfaction Guaranteed</p>
                 </div>
             </div>
         </div>
@@ -398,7 +396,7 @@
 </section>    
 
 <div class="relative grid w-full my-32 lg:my-52 shadedimage place-items-center">
-    <div class="p-4 text-2xl font-bold text-white lg:px-36 xl:text-4xl convinced">
+    <div class="p-4 text-xl font-bold text-white lg:px-36 xl:text-3xl convinced">
         <p class="mb-10 font-extrabold text-mayellow text-lightgreen">Got any questions?</p>
 
         <p class="mb-10">We'd love to have a chat and go over anything you're not sure about!</p>
@@ -478,18 +476,17 @@ for (var i=0; i<ticks.length; i++) {
         </button>
       </div>
  
-    <a class="footer-logo" aria-label="business logo" href="/public/index.html"><img aria-hidden="true" src="./images/wholelogo.png" alt=""></a>
+    <a class="footer-logo" aria-label="business logo" href="./index.html"><img aria-hidden="true" src="./images/wholelogo.png" alt=""></a>
     <div class="contact-group">
-        <a class="phone" href="tel:555-555-1123">555.555.1123</a><span>Somewehere, Out There</span><a href="example@email.com">example@email.com</a></span>
+        <a class="phone" href="tel:555-555-1123">555.555.1123</a><span>Dublin, Ireland</span><a href="example@email.com">example@email.com</a></span>
     </div>
 
     
 
     <ul>
-        <li><a href="/index.html" class="active">Home</a></li>
         <li><a href="/html/about-turner-painting.html">About</a></li>
         <li><a href="/index.html#services">Services</a></li>
-        <li><a href="/html/portfolio.html">Portfolio</a></li>
+        <li><a href="/html/portfolio.html">Gallery</a></li>
         <li><a href="/html/contact.html">Contact</a></li>
 
        
