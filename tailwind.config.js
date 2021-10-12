@@ -10,6 +10,8 @@ module.exports = {
       },
       backgroundImage:{
         'gutterman': "url(./gutterman.jpg)",
+        'roofman': "url(./roofman.jpeg)",
+        'flatroof': "url(./flatroof.jpeg)",
         'guarantee': "url(./guarantee.png)"
       }
 
