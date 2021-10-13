@@ -63,23 +63,21 @@ nav {
 
 .toggle-container {
   position:relative;
-  top:42px;;
+  top:45px;
   display:inline;
-  z-index:199;
 }
 
 #footerlight {
    width:100%;
     top:0;
-    
 text-align:center;
 margin: auto;
     transform:scale(.8)
 }
 
 .theme-btn {
-  width: 3.5em;
-  height: 3.5em;
+  width: 2.5em;
+  height: 2.5em;
   padding: 0.5em;
   border-radius: 50%;
   cursor: pointer;
@@ -106,6 +104,22 @@ margin: auto;
   margin:0 auto
 }
 
+@media screen and (min-width:1100px){
+    .theme-btn {
+        width: 3.2em;
+        height: 3.2em;
+    }
+}
+
+
+
+@media screen and (max-width:480px){
+    .toggle-container {right:-60px;}
+}
+
+@media screen and (max-width:380px){
+    .toggle-container {right:-20px;}
+}
 
 
 /* lightswitch CSS ends */
@@ -616,7 +630,7 @@ content: '';
 
 @media screen and (min-width:1200px) {
     .toggle-container {
-        top:55px !important;
+        top: 50px !important;
 }
 
 }
