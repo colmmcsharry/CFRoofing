@@ -20,6 +20,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
 
+<!-- delay loading of font-awesome stylesheet -->
+<link rel="preload" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"></noscript>
+
+
+    <script defer src="https://use.fontawesome.com/4e3025a09e.js"></script>
+
 
 <meta name="keywords" content="roofing, CF, C and F, C&F, roofing repair, roof repair, roof installation, roofing repairs, Dublin, Ireland, flat roofs, leaks, gutters, guttering, roofers">
 <meta name="description" content="The best roofing repair services in the greater Dublin area">
@@ -442,6 +449,89 @@
 
 </section>   
 
+<!-- TESTIMONIAL -->
+
+<h3 class="relative mx-auto mb-12 text-2xl font-bold text-center secheading lg:text-4xl">What <span class="text-mayellow">Clients Say</span></h3> 
+<section class="z-0 flex flex-col justify-center w-full wrapper_carousel" role="region" aria-label="testimonial carousel">
+  
+
+  <div class="relative flex items-center justify-center w-full mt-8 mb-8 overflow-hidden carousel-data">
+    <div class="carousel-item" role="group" aria-label="slide 1 of 4">
+      <div class="author-profile">
+          <img alt="" loading="lazy"  src="./public/images/HEAD4.png">
+      </div>
+      <p class="my-8 italic text_caption">
+          The C&F Roofing team fixed some major issues with our family home roof, which had gotten some storm damage. They installed a new structural timber batten and a waterproof underlay felt, and we haven't had any issues since.
+          The team were very friendly and professional throughout, and I'd have no hesitation recommending them to anyone.
+      </p>
+      <span><i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> </span>
+      <span class="mb-4 caption-author">
+          - Sean McEntee
+      </span>
+  </div>
+
+
+     
+      <div class="carousel-item" role="group" aria-label="slide 2 of 5">
+          <div class="author-profile">
+              <img alt="" loading="lazy" alt=""  src="./public/images/HEAD2.png">
+          </div>
+          <p class="mt-8 italic text_caption">
+              We had a great experience with C&F Roofing. They rebedded and repointed our ridge tiles, as well as inspecting and cleaning our gutters. Their experience showed and their prices were very fair too.
+              Will use them again in future!
+          </p>
+          <span><i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> </span>
+          <span class="mb-4 caption-author">
+          - Mary Byrne
+          </span>
+          
+      </div>
+     
+      <div class="carousel-item" role="group" aria-label="slide 3 of 4">
+        <div class="author-profile">
+            <img loading="lazy" alt=""   src="./public/images/HEAD1.png">  
+        </div>
+        <p class="z-10 p-1 my-8 italic text_caption">
+           We were delighted with the service we received from the guys at C&F Roofing. We had a new flat roof installed as our old one was giving us trouble.
+           The crew were in on time every day and were very polite and professional the whole time. Would definitely recommend! 
+        </p>
+        <span><i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> </span>
+        <span class="mb-4 caption-author">
+            - Sarah Fallon
+        </span>
+    </div>   
+
+    <div class="carousel-item" role="group" aria-label="slide 4 of 4">
+      <div class="author-profile">
+          <img alt="" loading="lazy"  src="./public/images/HEAD3.png">
+      </div>
+      <p class="my-8 italic text_caption">
+          I was having a lot of issues with my roof and the lads at C&F Roofing did a great job on them. They replaced the rotten timber, replaced the waterproof felt which had holes in it, and repointed the gable end.
+          Top marks all round!
+      </p>
+
+      <span><i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> </span>
+      <span class="mb-4 caption-author">
+          - Alan O'Dea
+      </span>
+  
+  </div>
+
+     
+  </div>
+  <div class="flex items-center carousel-indicators">    
+  </div>
+  <div class="flex justify-end mt-auto carousel-controls" aria-label="carousel controls">
+      <button type="button" class="button_carousel-prev" aria-label="previous"><i class="fas fa-caret-left"></i></button>
+      <button type="button" class="ml-1 button_carousel-next" aria-label="next"><i class="fas fa-caret-right"></i></button>
+  </div>
+     
+</section>
+
+
+
+
+
 <!-- CONTACT -->
 
 <section>
@@ -584,6 +674,8 @@ for (var i=0; i<navmobs.length; i++) {
 
 
  </script>
+
+<script src="./carousel.js"></script>
 
 <script defer>
     var a = 0;
