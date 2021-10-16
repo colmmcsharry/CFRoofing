@@ -25,6 +25,7 @@ html {
 :root,
 :root.light {
     --bg-color: #333333;
+    --buttontext: #333333;
     --text-color: white;
     --mayellow: #fcd95e;
     --navcol: #2e2e2e;
@@ -32,9 +33,11 @@ html {
 }
 
 :root.dark {
+    
+    --buttontext: white;
     --bg-color: #fff;
     --text-color: #123;
-    --mayellow:rgb(187, 163, 73);
+    --mayellow:rgb(150, 130, 57);
     --navcol:#fdfdfd;
     --cardbg: white;
     
@@ -150,12 +153,13 @@ h1,h2,h3,h4,h5,h6 {
   }
 
   .heroh2{
-      font-family:'Amita', cursive
+      font-family:'Tangerine', cursive;
+
   }
 
   #counter p {
       color:var(--text-color) !important;
-      font-family:Georgia !important;
+  
   }
 
 
@@ -650,9 +654,7 @@ content: '';
 .collapsible {
     background-color: var(--mayellow);
     cursor: pointer;
-    padding: 18px;
     width: 200px;
-    color:rgb(31, 41, 55);
     border: none;
     text-align: center;
   }

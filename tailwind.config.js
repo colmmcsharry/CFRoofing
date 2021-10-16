@@ -1,12 +1,13 @@
 module.exports = {
   mode: 'jit',
-  content:  ['./public/**/*.html'] ,
+  content:  ['./**/*.html'] ,
   theme: {
     extend: {
       colors: {
         bgcolor:"var(--bgcolor)",
         mayellow:"var(--mayellow)",
-        textcol:"var(--textcolor)"
+        textcol:"var(--textcolor)",
+        buttontext:"var(--buttontext)"
       },
       backgroundImage:{
         'gutterman': "url(./gutterman.jpg)",
