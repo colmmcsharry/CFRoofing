@@ -20,15 +20,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
 
-<!-- delay loading of font-awesome stylesheet -->
-<link rel="preload" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"></noscript>
 
-
-    <script defer src="https://use.fontawesome.com/4e3025a09e.js"></script>
-
-
-<meta name="keywords" content="roofing, CF, C and F, C&F, roofing repair, roof repair, roof installation, roofing repairs, Dublin, Ireland, flat roofs, leaks, gutters, guttering, roofers">
+<meta name="keywords" content="roofing, CF, C and F, C&F, roofing repair, roof repair, roof installation, roof replacement, Sandyford, roofing repairs, Dublin, Ireland, flat roofs, leaks, gutters, guttering, roofers">
 <meta name="description" content="The best roofing repair services in the greater Dublin area">
                       
 
@@ -464,7 +457,7 @@
           The C&F Roofing team fixed some major issues with our family home roof, which had gotten some storm damage. They installed a new structural timber batten and a waterproof underlay felt, and we haven't had any issues since.
           The team were very friendly and professional throughout, I'd recommend them to anyone.
       </p>
-      <span class="mb-2"><i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> </span>
+      <span class="mb-3"><img src="./public/images/fivestarsgold.svg" width="150px" height="60px"/></span>
       <span class="mb-4 caption-author">
           - Sean McEntee
       </span>
@@ -480,7 +473,7 @@
               We had a great experience with C&F Roofing. They rebedded and repointed our ridge tiles, as well as inspecting and cleaning our gutters. Their experience showed and their prices were very fair too.
               Will use them again in future!
           </p>
-          <span class="mb-2"><i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> </span>
+          <span class="mb-3"><img src="./public/images/fivestarsgold.svg" width="150px" height="60px"/></span>
           <span class="mb-4 caption-author">
           - Mary Byrne
           </span>
@@ -495,7 +488,7 @@
            We were delighted with the service we received from the guys at C&F Roofing. We had a new flat roof installed as our old one was giving us trouble.
            The crew were in on time every day and were very polite and professional the whole time. Would definitely recommend! 
         </p>
-        <span class="mb-2"><i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> </span>
+        <span class="mb-3"><img src="./public/images/fivestarsgold.svg" width="150px" height="60px"/></span>
         <span class="mb-4 caption-author">
             - Sarah Fallon
         </span>
@@ -510,7 +503,7 @@
           Top marks all round!
       </p>
 
-      <span class="mb-2"><i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> <i class="text-green-300 fa fa-star" aria-hidden="true"></i> </span>
+      <span class="mb-3"><img src="./public/images/fivestarsgold.svg" width="150px" height="60px"/></span>
       <span class="mb-4 caption-author">
           - Alan O'Dea
       </span>
@@ -521,9 +514,9 @@
   </div>
   <div class="flex items-center carousel-indicators">    
   </div>
-  <div class="flex justify-end mt-auto carousel-controls" aria-label="carousel controls">
-      <button type="button" class="button_carousel-prev" aria-label="previous"><i class="fas fa-caret-left"></i></button>
-      <button type="button" class="ml-1 button_carousel-next" aria-label="next"><i class="fas fa-caret-right"></i></button>
+  <div class="flex justify-center mt-auto carousel-controls" aria-label="carousel controls">
+      <button type="button" class="button_carousel-prev" aria-label="previous"><img id="leftarrow" class="pointer-events-none" src="public/images/leftarrow.png" width="30px" height="30px" /></button>
+      <button type="button" class="ml-1 button_carousel-next" aria-label="next"><img id="rightarrow" class="pointer-events-none" src="public/images/rightarrow.png" width="30px" height="30px" /></button>
   </div>
      
 </section>
@@ -654,6 +647,8 @@ lightbox.option({
        
       document.getElementById('heroroof').classList.toggle('goesdark');
       document.getElementById('mainlogo').classList.toggle('goesbitdark');
+      document.getElementById('leftarrow').classList.toggle('goesbitdark');
+      document.getElementById('rightarrow').classList.toggle('goesbitdark');
       document.getElementById('guaranteeid').classList.toggle('greenguarantee');
       document.getElementById('housesil').classList.toggle('houseopacity');
        
@@ -729,8 +724,8 @@ for (var i=0; i<navmobs.length; i++) {
     <a class="footer-logo" aria-label="business logo" href="./index.html"><img aria-hidden="true" src="./public/images/wholelogo.png" alt="logo"></a>
     <div class="contact-group">
         <a class="phone" href="tel:015394116">01 539 4116</a> <a class="phone" href="tel:0874080843">087 408 0843</a>
-        <p class="px-10">Unit 25, Bracken Road, Sandyford, Dublin 18</p>
-        <a href="cfroofingrepairsdublin@gmail.com">cfroofingrepairsdublin@gmail.com</a></span>
+        <p class="px-10 text-white">Unit 25, Bracken Road, Sandyford, Dublin 18</p>
+        <a href="cfroofingrepairsdublin@gmail.com">cfroofingrepairsdublin@gmail.com</a>
     </div>
 
     
@@ -743,7 +738,7 @@ for (var i=0; i<navmobs.length; i++) {
 
        
     </ul>
-    <span class="credit">Designed and Developed by <a href="https://www.dublinwebdev.ie/"> Dublin Web Dev</a><span class="copy">Copyright 2021</span></span>
+    <span class="credit">Designed and Developed by <a class="text-blue-200" href="https://www.dublinwebdev.ie/"> Dublin Web Dev</a><span class="copy">Copyright 2021</span></span>
     
 
 </footer>

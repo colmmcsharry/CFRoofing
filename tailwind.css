@@ -75,8 +75,9 @@ nav {
     top:0;
 text-align:center;
 margin: auto;
-    transform:scale(.8)
+    transform:scale(1.2);
 }
+
 
 .theme-btn {
   width: 2.5em;
@@ -339,7 +340,6 @@ content: '';
         }
     
         #footer .credit a {
-            color: var(--primary);
             text-decoration: none;
             line-height: 12px;
         }
@@ -830,8 +830,9 @@ opacity:0.8;
   }
   
   .caption-author {
-    font-weight: 700;
+    
     font-size: 14px;
+    
   }
   
   .carousel-indicators {
@@ -852,7 +853,6 @@ opacity:0.8;
   
   .carousel-controls button {
     background: var(--yellow);
-    padding: 24px;
     font-size: var(--text_md);
     width: 60px;
     max-width: 100%;
@@ -870,7 +870,7 @@ opacity:0.8;
   }
   
   button.current-indicator {
-    background: #197ABE;
+    background: var(--mayellow);
   }
   
   @media only screen and (max-width: 768px) {
@@ -944,3 +944,6 @@ opacity:0.8;
     }
   
   }
+
+
+
