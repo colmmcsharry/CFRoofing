@@ -99,7 +99,7 @@
                         </a>
                     </div>
                     <!-- Primary Navbar items -->
-                    <div class="items-center hidden space-x-1 md:flex">
+                    <div class="items-center hidden space-x-1 text-sm md:flex">
                         <!-- <a href="" class="px-2 py-4 font-semibold border-b-2 border-white ">Home</a> -->
                         <a href="#about" class="px-2 py-4 font-semibold transition duration-300 text-mayellow hover:text-yellow-100">About</a>
                         <a href="#services" class="px-2 py-4 font-semibold transition duration-300 text-mayellow hover:text-yellow-100">Services</a>
@@ -109,11 +109,16 @@
                     </div>
                 </div>
                 <!-- Secondary Navbar items -->
-                <div class="items-center hidden space-x-3 md:flex ">
-                    <a id="navmob" href="" class="px-2 py-2 font-medium text-green-200 transition duration-300 rounded hover:text-green-400">
+                <div class="items-center hidden space-x-3 text-sm md:flex ">
+                    <a href="tel:0874080843" class="px-2 py-2 font-medium text-green-200 transition duration-300 rounded navmob hover:text-green-400">
                         <img src="./public/images/mobphone.png" class="inline" alt="phone" width="30px" height="35px" />
                         
-                        087 669 4470</a>
+                        087 408 0843</a>
+
+                        <a  href="tel:015394116" class="px-2 py-2 font-medium text-green-200 transition duration-300 rounded navmob hover:text-green-400">
+                          <img src="./public/images/officephone.png" class="inline" alt="phone" width="30px" height="35px" />
+                          
+                          01 539 4116</a> 
                   
                 </div>
 
@@ -155,6 +160,15 @@
                 <li><a href="#services" class="block px-2 py-4 text-sm transition duration-300 text-mayellow hover:bg-gray-500">Services</a></li>               
                 <li><a href="#gallery" class="block px-2 py-4 text-sm transition duration-300 text-mayellow hover:bg-gray-500">Gallery</a></li>
                 <li><a href="#contact" class="block px-2 py-4 text-sm transition duration-300 text-mayellow hover:bg-gray-500">Contact</a></li>
+               <li> <a href="tel:0874080843" class="px-2 py-2 font-medium text-green-200 transition duration-300 rounded navmob hover:text-green-400">
+                  <img src="./public/images/mobphone.png" class="inline" alt="phone" width="30px" height="35px" />
+                  
+                  087 408 0843</a></li>
+
+                <li> <a href="tel:015394116" class="px-2 py-2 font-medium text-green-200 transition duration-300 rounded navmob hover:text-green-400">
+                    <img src="./public/images/officephone.png" class="inline" alt="phone" width="30px" height="35px" />
+                    
+                    01 539 4116</a> </li>
             </ul>
         </div>
         <script defer>
@@ -179,9 +193,10 @@
 <p class="max-w-lg px-4 mb-10">At C&F we pride ourselves on providing the <b>best value</b> around in roofing repair services. 
     With over <b>25 years experience</b> and <b>hundreds of satisfied customers</b>, 
     you know you can count on us to keep a roof over your head!</p>
-    <a href="#contact" class="relative px-4 py-2 mb-10 font-bold text-center text-buttontext w-44 yellowbut bg-mayellow">Get in Touch</a>
+    <a href="#contact" class="relative px-4 py-2 mb-12 font-bold text-center text-buttontext w-44 yellowbut bg-mayellow">Get in Touch</a>
 </div>
-    <img class="lg:w-4/5" src="./public/images/herobg.png" width="300px" height="300px" alt="men working on roof"/>
+   <div id="heroimg" class="relative px-8 lg:-top-8 w-72 h-72 lg:w-96 lg:h-96"> </div>
+   
 </div>
 
 </section>
@@ -196,7 +211,7 @@
               <p class="max-w-lg mx-auto mb-10 lg:my-auto">We founded C&F Roofing Repairs over 25 years ago and since then we have forged a reputation as the go-to guys
                   for fixing all manner of roofing problems. We are <b>punctual, precise</b> and <b>always professional</b> in our duties. By going above and beyond for every client, we have a constant influx of new customers
                 as word-of-mouth spreads about our work. </p>
-              <img alt="gutter cleaning graphic" class="p-6 mx-auto lg:w-3/5" src="./public/images/guttercleaning.png" width="300px" height="300px" />
+            <div class="relative mx-auto w-72 h-60 lg:w-96 lg:h-72 yellowthing"> <img class="aboutimage" alt="gutter cleaning graphic" src="./public/images/roof1st.jpg"  /> </div>
  </div>
  
 <div class="absolute line-box"></div>
@@ -204,7 +219,7 @@
 <div class="grid gap-4 px-4 mx-auto secondgrid max-w-8xl lg:mt-20 lg:pt-20 place-items:center lg:grid-cols-2 "> 
           <p class="max-w-lg mx-auto mb-10 text-left lg:my-auto">Our dedicated crafstmen combine <b>time-tested, traditonal techniques</b> with the <b>latest technological advances</b> to provide the most cutting-edge roofing services in Dublin.
              By utilising our experience, knowledge and the finest, locally-sourced materials, our roofing repairs are <b>built to last</b>  </p>
-             <img alt="roof fixing graphic" class="p-6 mx-auto lg:w-3/5" src="./public/images/secondcartoon.png" width="300px" height="300px" />
+             <div class="relative mx-auto yellowthing w-72 h-60 lg:w-96 lg:h-72 "> <img class="aboutimage" alt="gutter cleaning graphic" src="./public/images/roof2nd.jpg"  /> </div>
           </div>
 
          
@@ -219,7 +234,7 @@
                 We are so confident in our work, that we can provide a <span class="text-mayellow"><b>100% money-back guarantee!</span></b> Don't delay, call us today and get a hassle-free quote! </span></p> 
                 <a href="#contact" class="relative z-10 px-4 py-2 my-16 font-bold text-center text-buttontext w-44 yellowbut bg-mayellow">Contact Us!</a>
         </div>
-        <img alt="another roofing graphic" class="p-6 mx-auto lg:w-3/5" src="./public/images/finalcartoon.png" width="300px" height="300px" />
+        <div class="relative mx-auto yellowthing w-72 h-60 lg:w-96 lg:h-72"> <img class="aboutimage" alt="gutter cleaning graphic" src="./public/images/rooflast.jpeg"  /> </div>
 </div>
  </section>
 
@@ -438,10 +453,10 @@
     
  
     <div class="p-4 mx-auto mb-10 ">
-    <a class="my-8" href="tel:0873331301"><p class=""><img alt="" class="inline w-8 pr-3" src="./public/images/mobphone.png"/>   087 333 1301  </p> </a>
-    <a href="tel:019010310"><p class="my-4"><img alt="" class="inline w-8 pr-3" src="./public/images/officephone.png"/>    01 901 0310   </p> </a>
-    <p class="my-4 lg:text-base"><img alt="" class="inline w-8 pr-3" src="./public/images/envelopegreen.png"/> cfroofing@gmail.com </p>    
-    <p class="mb-2 lg:text-base">Example Road, Dundrum, Dublin</p>   
+    <a class="my-8" href="tel:0874080843"><p class=""><img alt="" class="inline w-8 pr-3" src="./public/images/mobphone.png"/>   087 408 0843  </p> </a>
+    <a href="tel:015394116"><p class="my-4"><img alt="" class="inline w-8 pr-3" src="./public/images/officephone.png"/>    01 539 4116   </p> </a>
+    <p class="my-4 lg:text-base"><img alt="" class="inline w-8 pr-3" src="./public/images/envelopegreen.png"/> cfroofingrepairsdublin@gmail.com </p>    
+    <p class="mb-2 lg:text-base">Unit 25, Bracken Road, Sandyford, Dublin 18</p>   
     </div>
     
     <form class="max-w-lg px-4 mx-auto mb-20" id="contact-form" name="Contact Form" method="post" data-netlify="true">
@@ -513,8 +528,8 @@
         <p class="mb-10 font-extrabold text-mayellow text-lightgreen">Got any questions?</p>
 
         <p class="mb-10">We'd love to have a chat and go over anything you're not sure about!</p>
-       <a class="block mb-6" href="tel:0873331301"><span class="text-lightgreen hover:text-green-100"><img alt="" loading="lazy" alt="mobile phone icon"  class="inline pb-2 pr-4" src="./public/images/greenphone.svg"/>   087 333 1301   </span></a> 
-       <a class="block my-2" href="tel:019010310"><span class="text-lightgreen hover:text-green-100"><img alt="" loading="lazy" alt="office phone icon"  class="inline pb-2 pr-4" src="./public/images/officephone.png"/>    01 901 0310   </span></a> 
+       <a class="block mb-6" href="tel:0874080843"><span class="text-lightgreen hover:text-green-100"><img alt="" loading="lazy" alt="mobile phone icon"  class="inline pb-2 pr-4" src="./public/images/greenphone.svg"/>   087 408 0843   </span></a> 
+       <a class="block my-2" href="tel:015394116"><span class="text-lightgreen hover:text-green-100"><img alt="" loading="lazy" alt="office phone icon"  class="inline pb-2 pr-4" src="./public/images/officephone.png"/>    01 539 4116   </span></a> 
     </div>
 </div>
 
@@ -549,7 +564,6 @@ lightbox.option({
        
       document.getElementById('heroroof').classList.toggle('goesdark');
       document.getElementById('mainlogo').classList.toggle('goesbitdark');
-      document.getElementById('navmob').classList.toggle('goesbitdark');
       document.getElementById('guaranteeid').classList.toggle('greenguarantee');
       document.getElementById('housesil').classList.toggle('houseopacity');
        
@@ -558,10 +572,17 @@ lightbox.option({
 
 for (var i=0; i<ticks.length; i++) {
     ticks[i].classList.toggle('goesbitdark');
-}
+} 
 
-     
+var navmobs = document.querySelectorAll('.navmob');
+
+for (var i=0; i<navmobs.length; i++) {
+    navmobs[i].classList.toggle('goesbitdark');
+} 
+    
     }
+
+
  </script>
 
 <script defer>
@@ -615,7 +636,9 @@ for (var i=0; i<ticks.length; i++) {
  
     <a class="footer-logo" aria-label="business logo" href="./index.html"><img aria-hidden="true" src="./public/images/wholelogo.png" alt="logo"></a>
     <div class="contact-group">
-        <a class="phone" href="tel:555-555-1123">555.555.1123</a><span>Dublin, Ireland</span><a href="example@email.com">example@email.com</a></span>
+        <a class="phone" href="tel:015394116">01 539 4116</a> <a class="phone" href="tel:0874080843">087 408 0843</a>
+        <p class="px-10">Unit 25, Bracken Road, Sandyford, Dublin 18</p>
+        <a href="cfroofingrepairsdublin@gmail.com">cfroofingrepairsdublin@gmail.com</a></span>
     </div>
 
     

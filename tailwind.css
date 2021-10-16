@@ -287,6 +287,7 @@ content: '';
             margin: auto;
             margin-bottom: 50px;
             width: 300px;
+            line-height: 1.9;
         }
     
         #footer .contact-group a,
@@ -530,8 +531,6 @@ content: '';
         }
       }
 
-
-
   .goesdark {
     filter:brightness(0.1)
   }
@@ -682,3 +681,46 @@ content: '';
     width:300px;
     height:300px;
   }
+
+
+  #heroimg {
+      background-image: url('./blackcollage.jpg');
+      background-size:cover;
+      background-repeat:no-repeat;
+  }
+
+  #heroimg:before {
+      content:"";
+      background-image:url('./yellowdots.svg');
+      position:absolute;
+      bottom:-7%;
+      left:-10%;
+     background-repeat:repeat;
+    width:100%;
+opacity:0.8;
+    height:100%;
+    z-index:-1;
+    background-size:contain;
+  }
+
+  .yellowthing:before {
+    content:"";
+    background-image:url('./yellowdots.svg');
+    position:absolute;
+    bottom:-7%;
+    left:-8%;
+   background-repeat:repeat;
+  width:100%;
+opacity:0.8;
+  height:100%;
+  z-index:-1;
+  background-size: contain;
+}
+
+
+.aboutimage {
+    width:100%;
+    height:100%;
+}
+
+
