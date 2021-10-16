@@ -57,9 +57,9 @@ body {
     grid-template-rows:2fr 1fr 1fr;
 }
 
-nav {
+/* nav {
   background-color: var(--navcol)
-}
+} */
 
 
 /* LIGHTSWITCH CSS STARTS */
