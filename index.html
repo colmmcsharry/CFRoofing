@@ -87,14 +87,13 @@
 </head>
 
 <body class="relative">
-
   <nav class="shadow-lg">
-    <div class="mx-auto lg:px-20 2xl:px-52 ">
+    <div class="mx-auto lg:px-10">
       <div class="flex justify-between">
-        <div class="flex space-x-20">
+        <div class="flex">
           <div>
             <!-- Website Logo -->
-            <a href="/index.html" class="flex items-center px-2 py-4">
+            <a href="/index.html" class="flex items-center pl-1 py-3">
               <img id="mainlogo" src="./public/images/citylogonew.png" alt="Logo" class="w-36 md:w-52">
 
             </a>
@@ -114,30 +113,28 @@
           </div>
         </div>
         <!-- Secondary Navbar items -->
-        <div class="items-center hidden space-x-3 text-sm md:flex ">
+        <div class="items-center w-44 flex justify-center space-x-3 text-sm md:flex ">
           <a href="tel:07938424398"
-            class="px-2 py-2 font-medium text-green-200 transition duration-300 rounded navmob hover:text-green-400">
-            <img src="./public/images/mobphone.png" class="inline" alt="phone" width="30px" height="35px" />
+            class="px-1 py-1 pr-2 text-xs top-2 relative border-solid border-2 md:top-0 border-green-400 text-green-200 transition duration-300 rounded-md navmob hover:text-green-400">
+            <img src="./public/images/mobphone.png" class="inline" alt="phone" width="20px" height="24px" />
 
             0793 842 4398</a>
 
-          <a href="tel:07938424398"
-            class="hidden px-2 py-2 font-medium text-green-200 transition duration-300 rounded navmob hover:text-green-400">
+          <!-- <a href="tel:07938424398"
+            class="px-2 py-2 font-medium hidden text-green-200 transition duration-300 rounded navmob hover:text-green-400">
             <img src="./public/images/officephone.png" class="inline" alt="phone" width="30px" height="35px" />
 
-            01 539 46</a>
+            01 539 46</a> -->
 
         </div>
 
         <div class="toggle-container">
-          <button class="theme-btn light" onclick="setTheme('light')" title="Light mode">
+          <button class="theme-btn light relative top-2 md:top-0" onclick="setTheme('light')" title="Light mode">
             <img src="./public/images/sun.png" alt="sun">
-            <p class="absolute text-xs scale-90 opacity-50 -left-2 text-textcol whitespace-nowrap">Light Mode</p>
           </button>
 
-          <button class="theme-btn dark" onclick="setTheme('dark')" title="Dark mode">
+          <button class="theme-btn dark relative top-2 md:top-0" onclick="setTheme('dark')" title="Dark mode">
             <img src="./public/images/moon.png" alt="moon">
-            <p class="absolute text-xs scale-90 -left-2 opacity-60 text-textcol whitespace-nowrap">Dark Mode</p>
           </button>
         </div>
         <!-- Mobile menu button -->

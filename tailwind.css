@@ -66,8 +66,8 @@ body {
 
 .toggle-container {
   position:relative;
-  top:49px;
-  display:inline;
+  display:flex;
+  align-items: center;
 }
 
 #footerlight {
@@ -80,8 +80,9 @@ margin: auto;
 
 
 .theme-btn {
-  width: 2.5em;
-  height: 2.5em;
+  width: 2.3em;
+  height: 2.3em;
+  bottom: - 1rem;
   padding: 0.5em;
   border-radius: 50%;
   cursor: pointer;
@@ -117,13 +118,6 @@ margin: auto;
 
 
 
-@media screen and (max-width:480px){
-    .toggle-container {right:-60px;}
-}
-
-@media screen and (max-width:380px){
-    .toggle-container {right:-20px;}
-}
 
 
 /* lightswitch CSS ends */
@@ -631,12 +625,6 @@ content: '';
       opacity:0.9;
   }
 
-@media screen and (min-width:1200px) {
-    .toggle-container {
-        top: 50px !important;
-}
-
-}
 
 
 
